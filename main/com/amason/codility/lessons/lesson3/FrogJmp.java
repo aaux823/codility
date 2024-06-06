@@ -1,4 +1,4 @@
-package aauxilio.java.codility;
+package com.amason.codility.lessons.lesson3;
 
 public class FrogJmp {
 	

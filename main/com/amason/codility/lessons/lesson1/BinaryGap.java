@@ -1,4 +1,4 @@
-package aauxilio.java.codility;
+package com.amason.codility.lessons.lesson1;
 
 public class BinaryGap {
 
@@ -11,10 +11,12 @@ public class BinaryGap {
 
 
         for (int i = 0; i < binaryString.length(); i++) {
+        	// Check if char is 0 and previous character is also 0
             if (binaryString.charAt(i) == '0') {
                 binaryGap++;
                 prevIsZero = true;
             } else {
+            	// If not, check if it's the max binary gap
                 if (prevIsZero) {
                     maxBinaryGap = Math.max(maxBinaryGap, binaryGap);
                     binaryGap = 0;

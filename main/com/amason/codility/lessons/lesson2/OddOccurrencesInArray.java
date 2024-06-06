@@ -1,4 +1,4 @@
-package aauxilio.java.codility;
+package com.amason.codility.lessons.lesson2;
 
 import java.util.*;
 
